@@ -1,9 +1,9 @@
-TweenMax.from(".left-section",2, {
+TweenMax.from(".left-section",0.5, {
     width:"0",
     ease:Expo.ease
 })
-TweenMax.from(".right-section",2, {
-    delay:2,
+TweenMax.from(".right-section",0.5, {
+    delay:1,
     width:"70vw",
     opacity:"0",
    
